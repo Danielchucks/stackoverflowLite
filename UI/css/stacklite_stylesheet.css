@@ -1,0 +1,270 @@
+
+* {font-family: "arial black" Gadget, sans-serif;}
+
+/*div * {font-family: "Comic Sans MS", cursive, sans-serif;}
+*/
+body{
+  margin: 0px;
+  background :whitesmoke;
+  font-family: Verdana, Georgia, serif;
+  font-size: 14px;
+}
+
+a{
+  text-decoration: none;
+}
+
+/*a:hover{color: blue}
+a:active{color: red}
+a:visited{color: #989898} */
+
+header{
+   /* position: fixed;
+   This will cause the header to overlap the fellowing section **
+    */
+   position: sticky;
+   top: 0px;
+}
+
+.header-section, header{
+   background-color: white;
+   width: 100%;
+   margin: 0px;
+}
+
+.Header-container{
+    background-color: #4d27b003;
+    width: 100%;
+    height: 50px;
+    margin: 0px;
+    border-top: 3px solid #FFC107;
+    display: flex;
+    align-items: center;
+}
+
+.header.a{
+  text-decoration: none;
+}
+
+.stack-overflow-logo{
+   width: 150px;
+   height: 30px;
+}
+
+.stack-overflow-log a{
+   padding: 0 8px;
+}
+
+.log-name{
+       margin: 0px 0px 0px 20px;
+}
+
+.search-bar{
+   margin: 0px 20px 0px 20px;
+   border-width: 1px;
+   width: 210px;
+   height: 30px;
+   border-radius: 3px;
+   background-color: #fff;
+
+}
+
+.search-icon-btn{
+  position: relative;
+  background-color: #66bfff;
+  margin-left: -80px;
+  width: 55px;
+  height:35px;
+  border-radius: 3px;
+
+}
+
+.search-icon{
+  width: 20px;
+  height: 20px;
+}
+
+.container-new{
+  margin: 0px 0px 0px 20px;
+}
+
+.container-icon{
+    position: absolute;
+    right: 0px;
+}
+
+.container-icon a:hover{
+   color: blue;
+   background: #ddd;
+}
+
+/*.lite-icon{
+   display: flex;
+   flex-wrap: nowrap;
+}*/
+
+.lite-icons{
+  display: flex;
+  margin: 0px 20px 0px 20px;
+}
+
+.lite-icons-btn{
+  display: flex;
+  margin: 0px 0px 0px 20px;
+}
+
+.list-icons{
+    width: 25px;
+    height: 23px
+}
+
+.items{
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 0px 10px 0px 10px;
+}
+
+.sign-up-header-btn{
+   width: 69px;
+   height: 30px;
+   font-weight: normal;
+   border-radius: 3px;
+   color: white;
+   background-color: #0095ff;
+   border: 1px solid #07c;
+   box-shadow: inset 0 1px 0 #66bfff;
+   box-sizing: border-box;
+   position: relative;
+}
+
+.login-link-header{
+    width: 50px;
+    height: 25px;
+    font-weight: normal;
+    background: none;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    box-shadow: none;
+    color: #07C;
+    background-color: transparent;
+    position: relative;
+}
+
+/* Style for Section B */
+
+.container-upperbase{
+   width: 100%;
+   display: flex;
+   background-color: #117bf3; /*#0095ff;*/
+   font-family: Verdana, Georgia, serif;
+   color: white;
+}
+
+.left-content{
+   width: 50%;
+   margin-top: 30px;
+   margin:0px 0px 0px 10px;
+}
+
+h1{
+   margin-top: 20px;
+   font-family: Verdana, Georgia, serif;
+}
+
+.signup-input{
+   flex: 1;
+   border-width: 0px;
+   padding-left: 5px;
+   border-radius: 0 5px 5px 0;
+}
+
+
+.display{
+   display: flex;
+   width: 90%;
+   margin: 15px auto;
+}
+
+.display-item{
+   width: 130px;
+   background: #fbf9f9;
+   border: 0px;
+   border-radius: 5px 0 0 5px;
+}
+
+.display-item> p{
+   color: black;
+   text-align: left;
+   margin-left: 10px;
+
+}
+
+.loginBtn-facebook{
+   font-size: medium;
+   color: white;
+   background: #0000ff45;
+   width: 90%;
+   height: 40px;
+   border-radius: 5px;
+   border-width: 0;
+}
+
+.loginBtn-google{
+   display: flex;
+   align-items: center;
+   align-content: center;
+   font-size: medium;
+   color: black;
+   background: white;
+   width: 90%;
+   height: 40px;
+   margin-right: 10px;
+   border-radius: 5px;
+   border-width: 0;
+}
+
+.icon{
+   width:20px;
+   height:20px;
+}
+
+.text-centered{
+    margin: 0 auto;
+    text-align: center;
+}
+
+.sign-up-btn{
+   color: #FFF;
+   background-color: #117bf3;
+   border: 1px solid white;
+   border-radius: 5px;
+   width: 200px;
+   height: 40px;
+   margin: 0;
+}
+
+.signup-btn{
+   align-items: center;
+}
+
+.signup-paragraph{
+   font-size: 11px;
+   color: rgba(255,255,255,0.5);
+   padding-left: 24px;
+}
+.signup-paragraph a{
+    text-decoration: none;
+    color: white;
+}
+.paragraph{
+   /*width: 33%;
+    -webkit-flex-basis: 33%;
+    flex-basis: 33%;
+    margin-bottom: 0;    
+}
+
+.paragraph-2{
+
+}
+*/
+

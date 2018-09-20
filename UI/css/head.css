@@ -1,0 +1,146 @@
+@import "section2.css";
+
+* {font-family: "arial black" Gadget, sans-serif;}
+
+/*div * {font-family: "Comic Sans MS", cursive, sans-serif;}
+*/
+body{
+  margin: 0px;
+  background :whitesmoke;
+  font-family: Verdana, Georgia, serif;
+  font-size: 14px;
+}
+
+a{
+  text-decoration: none;
+}
+
+/*a:hover{color: blue}
+a:active{color: red}
+a:visited{color: #989898} */
+
+.header-section{
+   position: fixed;
+   background-color: white;
+   width: 100%;
+   margin: 0px;
+}
+
+.Header-container{
+   background-color: #4d27b003;
+   width: 100%;
+    height: 50px;
+    margin: 0px;
+    border-top: 3px solid #FFC107;
+    display: flex;
+    align-items: center;
+}
+
+.header.a{
+  text-decoration: none;
+}
+
+.stack-overflow-logo{
+   width: 150px;
+   height: 30px;
+}
+
+.stack-overflow-log a{
+   padding: 0 8px;
+}
+
+.log-name{
+       margin: 0px 0px 0px 20px;
+}
+
+.search-bar{
+   margin: 0px 20px 0px 20px;
+   border-width: 1px;
+   width: 210px;
+   height: 30px;
+   border-radius: 3px;
+   background-color: #fff;
+
+}
+
+.search-icon-btn{
+  position: relative;
+  background-color: #66bfff;
+  margin-left: -80px;
+  width: 55px;
+  height:35px;
+  border-radius: 3px;
+
+}
+
+.search-icon{
+  width: 20px;
+  height: 20px;
+}
+
+.container-new{
+  margin: 0px 0px 0px 20px;
+}
+
+.container-icon{
+    position: absolute;
+    right: 0px;
+}
+
+.container-icon a:hover{
+   color: blue;
+   background: #ddd;
+}
+
+/*.lite-icon{
+   display: flex;
+   flex-wrap: nowrap;
+}*/
+
+.lite-icons{
+  display: flex;
+  margin: 0px 20px 0px 20px;
+}
+
+.lite-icons-btn{
+  display: flex;
+  margin: 0px 0px 0px 20px;
+}
+
+.list-icons{
+    width: 25px;
+    height: 23px
+}
+
+.items{
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 0px 10px 0px 10px;
+}
+
+.sign-up-header-btn{
+   width: 69px;
+   height: 30px;
+   font-weight: normal;
+   border-radius: 3px;
+   color: white;
+   background-color: #0095ff;
+   border: 1px solid #07c;
+   box-shadow: inset 0 1px 0 #66bfff;
+   box-sizing: border-box;
+   position: relative;
+}
+
+.login-link-header{
+    width: 50px;
+    height: 25px;
+    font-weight: normal;
+    background: none;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    box-shadow: none;
+    color: #07C;
+    background-color: transparent;
+    position: relative;
+}
+
